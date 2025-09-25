@@ -7,6 +7,7 @@ import { Debug } from "astro/components";
 import type Link from "@interfaces/Link";
 import "../css/main.scss";
 import blackCatWalking from "../assets/black_cat_walking_and_sleeping_like_my_child.gif";
+import patheticCat from "../assets/pathetic.jpeg"
 const points: Link[] = [
 	{ displayName: "Home", location: "#" },
 	{ displayName: "Projects", location: "#projects-sec" },
@@ -27,7 +28,7 @@ const points: Link[] = [
 		<script
 			src="https://kit.fontawesome.com/91e746a27a.js"
 			crossorigin="anonymous"></script>
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
 	</head>
 	<body>
 		<header id="body-header">
@@ -96,15 +97,15 @@ const points: Link[] = [
 			</section>
 			<section id="socials-sec" class="socials-sec">
 				<a
-					href="https://displate.com/displate/6246939?pe=animals,cartoons,funny&ctrc=US"
+          href="#socials-sec"
 					target="_blank"
 					class="cat-link"
 				>
 					<Image
-						src="https://static.displate.com/280x392/displate/2023-02-16/6886ecb9c9db33a18ba733ce1a70ea1d_4311f16896243395f85313493949aec6.jpg"
+            src={patheticCat}
 						alt="a gray cat looking like a character from pathetic meme"
-						width={150}
-						height={150}
+						width={300}
+						height={300}
 						class="cat-gif"
 					/>
 				</a>

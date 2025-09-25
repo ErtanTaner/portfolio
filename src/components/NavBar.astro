@@ -12,7 +12,7 @@ const { points } = Astro.props;
     {
       points.map((e, i) => {
         return (
-          <li class={`nav-link ${i === 0 ? "active" : ""}`}>
+        <li class={`nav-link ${i === 0 ? "active" : ""}`}>
             <a href={e.location}>{e.displayName}</a>
           </li>
         );
