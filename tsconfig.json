@@ -12,8 +12,8 @@
       "@assets/*": [
         "src/assets/*"
       ],
-      "@ts/*": [
-        "src/ts/*"
+      "@utils/*": [
+        "src/utils/*"
       ]
     }
   }

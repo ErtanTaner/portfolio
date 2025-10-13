@@ -1,39 +1,37 @@
 ---
 import smileyImg from "@assets/smileymeow-project-image.png";
 import hubtofyImg from "@assets/hubtofy-project-portfolio.png";
-import eventTurkeyImg from "@assets/eventmvc-project-portfolio.png";
-import afetHayvanImg from "@assets/afethayvan-project-portfolio.png";
 import dictionareactImg from "@assets/dictionareact-project-portolifo.png";
-import kitapcekilisiImg from "@assets/kitapcekilisi-project-portolifo.png";
+import createRepo from "@assets/repo.png"
+import fitness from "@assets/fitness.jpg"
 import type Project from "@interfaces/Project";
 import { Image } from "astro:assets";
 const projects: Project[] = [
   {
-    title: "Smiley Meow",
+    title: "SmileyMeow",
     href: "https://github.com/ErtanTaner/SmileyMeow",
-    description: "Website for Smiley Meow vet clinic.",
+    description: "SmileyMeow",
     imgAlt: "Login page of a vet clinic's website",
     image: smileyImg,
   },
   {
-    title: "Afet Hayvan",
-    href: "https://github.com/Uzay-Sakinleri/afet-hayvan",
-    description: "Communicate with earthquake animals via persons for help",
-    imgAlt: "Black website with a map at the bottom",
-    image: afetHayvanImg,
+    title: "Create-repo",
+    href: "https://gitlab.com/ErtanTaner/create-repo",
+    description: "Create-repo",
+    imgAlt: "",
+    image: createRepo,
   },
   {
-    title: "Events Turkey",
-    href: "https://github.com/ErtanTaner/InfotechMVCEtkinlik",
-    description: "Looks for events in Turkey, any event!",
-    imgAlt:
-      "Bunch of event image with their location at the right and filter at the left side",
-    image: eventTurkeyImg,
+    title: "Gym-calendar",
+    href: "https://github.com/ErtanTaner/gym_calendar",
+    description: "Gym-calendar",
+    imgAlt: "",
+    image: fitness,
   },
   {
     title: "Hubtofy",
     href: "https://github.com/ErtanTaner/Hubtofy",
-    description: "Anyone can search their favorite band or sign into system",
+    description: "Hubtofy",
     imgAlt:
       "Pinky blush background with welcome message to user and navigation at the top",
     image: hubtofyImg,
@@ -41,19 +39,10 @@ const projects: Project[] = [
   {
     title: "Dictionareact",
     href: "https://github.com/ErtanTaner/dictionareact",
-    description: "Dictionary with search functionallity",
+    description: "Dictionareact",
     imgAlt:
       "A website screen with a search bar and create button at the right of the screen.",
     image: dictionareactImg,
-  },
-  {
-    title: "Kitapcekilisi",
-    href: "https://github.com/Uzay-Sakinleri/kitap-cekilis",
-    description:
-      "A giveaway site dedicate to UzayZuhal's monthly book giveaways",
-    imgAlt:
-      "A text box, white background red colored buttons and inputs and a button with ROLL text in front of a autumn colored background",
-    image: kitapcekilisiImg,
   },
 ];
 ---
